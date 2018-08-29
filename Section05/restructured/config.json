@@ -1,0 +1,19 @@
+{
+    "num_episodes": 700,
+    "max_checkpoints_to_keep": 10,
+    "learning_rate": 0.0001,
+    "steps_per_target_update": 7,
+    "summray_dir": "./results/summary",
+    "min_average_reward_for_stopping": 195,
+    "common_net_hidden_dimensions": [
+        16,
+        64
+    ],
+    "env": "CartPole-v0",
+    "consecutive_successful_episodes_to_stop": 20,
+    "buffer_size": 10000,
+    "mini_batch_size": 64,
+    "checkpoints_dir": "./checkpoints/model",
+    "gamma": 0.95,
+    "save_after_num_episodes": 25
+}
